@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="icon" href="house.png">
+    <script src="https://kit.fontawesome.com/172b858d8b.js" crossorigin="anonymous"></script>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        span {
+            color: rgb(228, 172, 15);
+        }
+        .content {
+            color: white;
+            position: absolute;
+            left: 580px;
+            top: 500px;
+            text-align: center;
+        }
+        
+        .content a {
+            text-decoration: none;
+            color: white;
+            background: rgb(228, 172, 15);
+            padding: 10px 30px;
+            border-radius: 30px;
+            font-weight: bold;
+        }
+        .content a:hover {
+            background: rgb(205, 133, 50);
+        }
+        body {
+            background-image: url(chuks.jpg);
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+        .icon {
+            width: 100px;
+            padding-top: 250px;
+            float: right;
+        }
+        #home {
+            background: rgb(228, 172, 15);
+            border-radius: 100px;
+            padding: 10px;
+            cursor: pointer;
+            margin: 10px;
+            color: white;
+        }
+        #home:hover {
+            background: rgb(71, 69, 69);
+        }
+        #user {
+            background: rgb(71, 69, 69);
+            border-radius: 100px;
+            padding: 10px;
+            cursor: pointer;
+            margin: 10px;
+            color: white;
+        }
+        #user:hover {
+            background: rgb(228, 172, 15);
+        }
+        #briefcase {
+            background: rgb(71, 69, 69);
+            border-radius: 100px;
+            padding: 10px;
+            cursor: pointer;
+            margin: 10px;
+            color: white;
+        }
+        #briefcase:hover {
+            background: rgb(228, 172, 15);
+        }
+        #mail {
+            background: rgb(71, 69, 69);
+            border-radius: 100px;
+            padding: 10px;
+            cursor: pointer;
+            margin: 10px;
+            color: white;
+        }
+        #mail:hover {
+            background: rgb(228, 172, 15);
+        }
+        #chat {
+            background: rgb(71, 69, 69);
+            border-radius: 100px;
+            padding: 9px;
+            cursor: pointer;
+            margin: 10px;
+            color: white;
+        }
+        #chat:hover {
+            background: rgb(228, 172, 15);
+        }
+        @media only screen and (max-width: 600px) {
+           * {
+            box-sizing: border-box;
+           }
+            .icon {
+            float: right;
+            width: 10%;
+           }
+           .content {
+            position: absolute;
+            right: 50px;
+           }
+        }
+        @media only screen and (min-width: 598px) {
+            * {
+                box-sizing: border-box;
+            }
+            .icon {
+                float: right;
+                width: 10%;
+            }
+            .content {
+                position: absolute;
+                right: 100px;
+            }
+        }
+        @media only screen and (max-width: 768px) {
+            * {
+                box-sizing: border-box;
+            }
+            .icon {
+                float: right;
+                width: 10%;
+            }
+            .content {
+                position: absolute;
+                left: 12%;
+            }
+        }
+        @media only screen and (min-width: 764px) {
+            * {
+                box-sizing: border-box;
+            }
+            .content {
+                position: absolute;
+                left: 1px;
+                right: 30px;
+            }
+        }
+        @media only screen and (min-width: 1150px) {
+            .icon {
+                width: 5%;
+                float: right;
+            }
+        }
+        @media only screen and (min-width: 2280px) {
+            .icon {
+                width: 4%;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h2>HI THERE !</h2>
+        <h1>I'M <span>MBAMA CHUKS</span></h1>
+        <p>i'm a Nigerian based web designer & front-end developer focused on crafting<br>clean & user friendly experiences about building excellent<br>software that improves the lives those around me.</p>
+        <br>
+        <a href="aboutMe.html">MORE ABOUT ME</a>
+    </div>
+    <div class="icon">
+        <a href="index.html"><i class="fa-solid fa-house-chimney" id="home" title="Home"></i></a>
+        <a href="aboutMe.html"><i class="fa-solid fa-user" id="user" title="About Me"></i></a>
+        <a href="myPortfolio.html"><i class="fa-solid fa-briefcase" id="briefcase" title="My Portfolio"></i></a>
+        <a href="getInTouch.html"><i class="fa-solid fa-envelope" id="mail" title="Get In Touch"></i></a>
+        <a href="myBlog.html"><i class="fa-sharp fa-solid fa-comments" id="chat" title="My Blog"></i></a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my Portfolio</title>
+    <link rel="icon" href="briefcase.png">
+    <script src="https://kit.fontawesome.com/172b858d8b.js" crossorigin="anonymous"></script>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        .first>h1 {
+        text-align: center;
+        color: rgba(225, 225, 225, 0.164);
+        font-size: 85px;
+        }
+        .second>h2 {
+            text-align: center;
+            color: white;
+            font-size: 45px;
+            margin-top: -130px;
+            font-display: flex;
+        }
+        span {
+            color: rgb(228, 172, 15);
+        }
+        body {
+            background-color: rgb(43, 40, 40);
+        }
+        .icon {
+            width: 100px;
+            float: right;
+            margin-left: 10px;
+            margin-top: -530px;
+        }
+        #home {
+            background: rgb(71, 69, 69);
+            border-radius: 100px;
+            padding: 10px;
+            cursor: pointer;
+            margin: 10px;
+            color: white;
+        }
+        #home:hover {
+            background: rgb(228, 172, 15);
+        }
+        #user {
+            background: rgb(71, 69, 69);
+            border-radius: 100px;
+            padding: 10px;
+            cursor: pointer;
+            margin: 10px;
+            color: white;
+        }
+        #user:hover {
+            background: rgb(228, 172, 15);
+        }
+        #briefcase {
+            background: rgb(228, 172, 15);
+            border-radius: 100px;
+            padding: 10px;
+            cursor: pointer;
+            margin: 10px;
+            color: white;
+        }
+        #briefcase:hover {
+            background: rgb(71, 69, 69);
+        }
+        #mail {
+            background: rgb(71, 69, 69);
+            border-radius: 100px;
+            padding: 10px;
+            cursor: pointer;
+            margin: 10px;
+            color: white;
+        }
+        #mail:hover {
+            background: rgb(228, 172, 15);
+        }
+        #chat {
+            background: rgb(71, 69, 69);
+            border-radius: 100px;
+            padding: 9px;
+            cursor: pointer;
+            margin: 10px;
+            color: white;
+        }
+        #chat:hover {
+            background: rgb(228, 172, 15);
+        }
+        .picture {
+            margin: 40px;
+        }
+        #photo1 {
+            height: 200px;
+            width: 30%;
+            margin: 10px;
+            border-radius: 5px;
+        }
+        #photo2 {
+            height: 200px;
+            width: 30%;
+            margin: 10px;
+            border-radius: 5px;
+        }
+        #photo3 {
+            height: 200px;
+            width: 30%;
+            margin: 10px;
+            border-radius: 5px;
+        }
+        #photo4 {
+            height: 200px;
+            width: 30%;
+            margin: 10px;
+            border-radius: 5px;
+        }
+        #photo5 {
+            height: 200px;
+            width: 30%;
+            margin: 10px;
+            border-radius: 5px;
+        }
+        #photo6 {
+            height: 200px;
+            width: 30%;
+            margin: 10px;
+            border-radius: 5px;
+        }
+        #photo7 {
+            height: 200px;
+            width: 30%;
+            margin: 10px;
+            border-radius: 5px;
+        }
+        #photo8 {
+            height: 200px;
+            width: 30%;
+            margin: 10px;
+            border-radius: 5px;
+        }
+        #photo9 {
+            height: 200px;
+            width: 30%;
+            margin: 10px;
+            border-radius: 5px;
+        }
+        @media only screen and (max-width: 400px) {
+            #photo1, #photo2, #photo3, #photo4, #photo5, #photo6, #photo7, #photo8, #photo9 {
+                float: left;
+                width: 90%;
+            }
+            .icon {
+                width: 10%;
+            }
+        }
+        @media only screen and (min-width: 390px) {
+            #photo1, #photo2, #photo3, #photo4, #photo5, #photo6, #photo7, #photo8, #photo9 {
+                float: left;
+                width: 40%;
+            }
+            .icon {
+                width: 15%;
+            }
+        }
+        @media only screen and (min-width: 700px) {
+            #photo1, #photo2, #photo3, #photo4, #photo5, #photo6, #photo7, #photo8, #photo9 {
+                float: left;
+                width: 30%;
+            }
+            .icon {
+                width: 5%;
+            }
+        }
+        @media only screen and (min-width: 770px) {
+            .icon {
+                width: 7%;
+            }
+        }
+        @media only screen and (min-width: 1280px) {
+            .icon {
+                width: 6%;
+                left: 9px;
+                position: relative;
+                top: 280px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="first">
+            <h1>WORKS</h1>
+        </div>
+        <div class="second">
+            <h2>MY <span>PORTFOLIO</span></h2>
+        </div>
+    </div>
+    <div class="picture">
+        <img src="img1.jpg" id="photo1">
+        <img src="img2.jpg" id="photo2">
+        <img src="img3.jpg" id="photo3">
+        <img src="img4.jpg" id="photo4">
+        <img src="img5.jpg" id="photo5">
+        <img src="img6.jpg" id="photo6">
+        <img src="img7.jpg" id="photo7">
+        <img src="img8.jpg" id="photo8">
+        <img src="img9.jpg" id="photo9">
+    </div>
+    <div class="icon">
+        <a href="index.html"><i class="fa-solid fa-house-chimney" id="home" title="Home"></i></a>
+        <a href="aboutMe.html"><i class="fa-solid fa-user" id="user" title="About Me"></i></a>
+        <a href="myPortfolio.html"><i class="fa-solid fa-briefcase" id="briefcase" title="My Portfolio"></i></a>
+        <a href="getInTouch.html"><i class="fa-solid fa-envelope" id="mail" title="Get In Touch"></i></a>
+        <a href="myBlog.html"><i class="fa-sharp fa-solid fa-comments" id="chat" title="My Blog"></i></a>
+    </div>
+</body>
+</html>
